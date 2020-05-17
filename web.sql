@@ -5,4 +5,5 @@ create table customer
 	temp int not null,	   // 피부 온도
 	stat int not null,	   // 피부 상태
 	time timestamp DEFAULT CURRENT_TIMESTAMP
+				   // ↑ 현재 시간
 )	
